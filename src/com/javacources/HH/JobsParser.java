@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class JobsParser {
     public static void main(String[] args) throws MalformedURLException, SQLException {
-        //version1
+        //version12
         URL url = new URL("http://jobs.dou.ua/vacancies/feeds/?search=Java");
         VacancyDAODB vacancyDAODB = new VacancyDAODB("jdbc:derby:/home/slava/DataBase-Vacancy");
         HHController controller = new HHController();
